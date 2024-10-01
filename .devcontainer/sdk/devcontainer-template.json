@@ -1,0 +1,22 @@
+{
+    "id": "sdk",
+    "version": "3.0.0",
+    "name": "C++1",
+    "description": "Develop C++ applications",
+    "optionalPaths": [
+         "GETTING-STARTED.md",
+         "example-project-1/MyProject.csproj",
+         ".github/*"
+     ],
+    "options": {
+        "optionId": {
+            "type": "string",
+            "description": "Description of the option",
+            "proposals": [
+                "value1",
+                "value2"
+            ],
+            "default": "value1"
+        }
+    }
+}
